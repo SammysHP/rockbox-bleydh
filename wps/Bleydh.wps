@@ -10,26 +10,27 @@
 
 # preload images
 %xl(B,battery.bmp,112,0,8)
-%xl(P,playmode.bmp,120,0,4)
+%xl(P,playmode.bmp,100,0,4)
 %xl(S,shuffle.bmp,4,0)
 %xl(R,repeats.bmp,18,0,4)
 %xl(V,volume.bmp,0,0,9)
 %xl(progress_bg,progress_bg.bmp,0,0)
 
-# status bar
+# status bar (1)
 %V(0,0,-,8,3)
 # volume and playlist position
 %?mv(1)<%pvdb|%?pv<%xd(Va)|%xd(Vb)|%xd(Vc)|%xd(Vd)|%xd(Ve)|%xd(Vf)|%xd(Vg)|%xd(Vh)|%xd(Vi)|%xd(Vi)>>%ac%pp/%pe
+# play mode icon
+%?mp<|%xd(Pa)|%xd(Pb)|%xd(Pc)|%xd(Pd)>
 # battery icon
 %?bp<%xd(Ba)|%?bl<|%xd(Bb)|%xd(Bc)|%xd(Bd)|%xd(Be)|%xd(Bf)|%xd(Bg)|%xd(Bh)|%xd(Bh)>>
 # charging animation
 %?bc<%t(0.5)%xd(Bb);%t(0.5)%xd(Bc);%t(0.5)%xd(Bd);%t(0.5)%xd(Be);%t(0.5)%xd(Bf);%t(0.5)%xd(Bg);%t(0.5)%xd(Bh)|>
 
-# shuffle icon, repeat mode icon
+# status bar (2)
 %V(0,8,-,8,0)
+# shuffle icon, repeat mode icon
 %al%?ps<%xd(S)|>%?mm<|%xd(Ra)|%xd(Rb)|%xd(Rc)|%xd(Rd)>
-# play mode icon
-%?mp<|%xd(Pa)|%xd(Pb)|%xd(Pc)|%xd(Pd)>
 
 # artist
 %V(0,16,-,8,3)
