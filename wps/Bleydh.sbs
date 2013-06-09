@@ -1,0 +1,18 @@
+# Theme Name: Bleydh
+
+# UI viewport
+%Vi(-,0,4,-,-,1)
+
+# preload images
+%xl(B,battery.bmp,112,0,8)
+%xl(P,playmode.bmp,100,0,4)
+
+# status bar
+%V(0,0,-,4,1)
+# battery icon
+%?bp<%xd(Ba)|%?bl<|%xd(Bb)|%xd(Bc)|%xd(Bd)|%xd(Be)|%xd(Bf)|%xd(Bg)|%xd(Bh)|%xd(Bh)>>
+# charging animation
+%?bc<%t(0.5)%xd(Bb);%t(0.5)%xd(Bc);%t(0.5)%xd(Bd);%t(0.5)%xd(Be);%t(0.5)%xd(Bf);%t(0.5)%xd(Bg);%t(0.5)%xd(Bh)|>
+
+# play mode icon
+%?mp<|%xd(Pa)|%xd(Pb)|%xd(Pc)|%xd(Pd)>
