@@ -13,8 +13,8 @@
 %xl(P,playmode.bmp,100,0,4)
 %xl(V,volume.bmp,0,0,9)
 %xl(progress_bg,progress_bg.bmp,0,0)
-%xl(S,fm_signal.bmp,71,0,4)
-%xl(T,fm_stereo.bmp,87,1,2)
+%xl(S,fm_signal.bmp,60,0,4)
+%xl(T,fm_stereo.bmp,82,1,2)
 
 # status bar (1)
 %V(0,0,-,8,3)
