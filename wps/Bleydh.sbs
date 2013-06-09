@@ -4,8 +4,8 @@
 %Vi(-,0,4,-,-,1)
 
 # preload images
-%xl(B,battery.bmp,112,0,8)
-%xl(P,playmode.bmp,100,0,4)
+%xl(B,battery_s.bmp,112,0,8)
+%xl(P,playmode_s.bmp,105,0,3)
 
 # status bar
 %V(0,0,-,4,1)
@@ -15,4 +15,4 @@
 %?bc<%t(0.5)%xd(Bb);%t(0.5)%xd(Bc);%t(0.5)%xd(Bd);%t(0.5)%xd(Be);%t(0.5)%xd(Bf);%t(0.5)%xd(Bg);%t(0.5)%xd(Bh)|>
 
 # play mode icon
-%?mp<|%xd(Pa)|%xd(Pb)|%xd(Pc)|%xd(Pd)>
+%?mp<%xd(Pa)|%xd(Pb)|%xd(Pc)|>
