@@ -43,9 +43,9 @@
 %V(0,37,-,12,2)
 %s%ac%?it<%it|%fm>
 
-# current / remaining (blink last 5 s) / total time
+# current / remaining (blink last 10 s) / total time
 %V(0,53,-,8,4)
-%pc%ac%?pE(5)<%t(0.3)-%pr;%t(0.3)|-%pr>%ar%pt
+%pc%ac%?pE(10)<%t(0.3)-%pr;%t(0.3)|-%pr>%ar%pt
 
 # progress Bar
 %V(0,61,128,3,-)
