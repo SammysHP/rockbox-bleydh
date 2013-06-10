@@ -15,6 +15,11 @@ Features
     - Current index in playlist and size of the playlist
     - Volume shown in dB while changing
     - Flashing remaining time at the end of a song
+- FMS:
+    - Lower, upper and current frequency
+    - Preset number and name
+    - Mono/stereo indicator
+    - Signal strength indicator
 - SBS (Base Skin):
     - Large font with 5 rows / screen (4 item + header)
     - Status bar with icons for volume, play mode and battery
